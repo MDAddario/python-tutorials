@@ -1,8 +1,69 @@
 ===== python-tutorials brainstorm =====
 
-- Branch naming convetion
-	- master: clean version, no answers filled in, is duplicated when creating new branches for people to fill out
-	- "Vanier_2020_02_31": community version for a group, answers are filled in as they go, multiple of these branches can exist, keeps track of who has been taugh the tutorial
-	- answers: has answers for all of the exercises and projects
+===== The main idea =====
 
-- 
+Scrape the PEP-8 pages to properly see all python conventions and make sure you're teaching all the important topics
+
+=========================
+
+- Branch naming convetion
+
+	- master: 				clean version, no answers filled in, is duplicated when creating new branches for people to fill out
+	- "Vanier_2020_02_31": 	community version for a group, answers are filled in as they go, multiple of these branches can exist, keeps track of who has been taugh the tutorial
+	- answers: 				has answers for all of the exercises and projects
+
+- Module convention
+
+	- The root directory of the repository with be composed of the README, gitignore, and multiple module_X, exercise_X, and project_X folders. These folders will contain, respectively, the tutorials, personal exercises, and group projects.
+
+	- exercise_X: 	These will be personal-oriented exercises designed as Jupyter notebooks. 
+
+	- project_X:	These will be group-oriented projects designed to be completed in proper python scripts and meshed together using git
+
+- Module content
+
+	- Each module will have multiple subfolders corresponding to the various topics to be covered
+
+	- module_0:	installation and basics
+
+		- How to install anaconda
+		- How to use Spyder
+		- How to use Jupyter
+		- Difference between a compiled vs. an interpreted language
+
+	- module_1: native Python
+
+		- primitive data types and operations
+		- lists and their operations
+		- dicitonaries and their operations
+		- How to iterate through objects
+		- List concatenations
+
+	- module_2: numpy
+
+		- Introduction to the array
+			- Comparisons bewteen operations on a list and on an array
+		- Bonus scipy feature for curve_fit()
+
+	- module_3: matplotlib
+
+		- Basic plotting
+			- plt.plot() and plt.scatter()
+		- Editing the plots
+			- titles, xlims, ...
+		- Subplotting
+			- Having multiple plots available at once
+
+	- module_4: Bonus libraries
+
+		- tqdm
+
+	- module_5: git / github
+
+		- How to use git
+		- How to setup python architecture on github (creating packages)
+		- How to setup continuous integration with python
+
+	- module_6: object-oriented programming
+
+=======================================
