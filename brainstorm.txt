@@ -4,7 +4,15 @@
 
 Scrape the PEP-8 pages to properly see all python conventions and make sure you're teaching all the important topics
 
+Go through my old python projects to make sure I'm not missing anything important
+
 =========================
+
+===== How to make this work =====
+
+Have an organized LaTeX file that has all of the topics covered in each module and subsection
+
+=================================
 
 - Branch naming convetion
 
@@ -15,9 +23,7 @@ Scrape the PEP-8 pages to properly see all python conventions and make sure you'
 - Module convention
 
 	- The root directory of the repository with be composed of the README, gitignore, and multiple module_X, exercise_X, and project_X folders. These folders will contain, respectively, the tutorials, personal exercises, and group projects.
-
 	- exercise_X: 	These will be personal-oriented exercises designed as Jupyter notebooks. 
-
 	- project_X:	These will be group-oriented projects designed to be completed in proper python scripts and meshed together using git
 
 - Module content
@@ -30,14 +36,25 @@ Scrape the PEP-8 pages to properly see all python conventions and make sure you'
 		- How to use Spyder
 		- How to use Jupyter
 		- Difference between a compiled vs. an interpreted language
+			- Motivate jupyter notebooks
+
+	JUPYTER-ORIENTED PYTHON
 
 	- module_1: native Python
 
 		- primitive data types and operations
+		- loops and conditionals
 		- lists and their operations
+			- list concatenations
+				- nested list concatenations
 		- dicitonaries and their operations
 		- How to iterate through objects
-		- List concatenations
+			- tqdm library
+		- type()
+		- format strings
+		- functions
+			- multiple retunr values
+			- default arguments
 
 	- module_2: numpy
 
@@ -54,16 +71,26 @@ Scrape the PEP-8 pages to properly see all python conventions and make sure you'
 		- Subplotting
 			- Having multiple plots available at once
 
-	- module_4: Bonus libraries
-
-		- tqdm
-
-	- module_5: git / github
+	- module_4: git
 
 		- How to use git
+		
+	SCRIPT ORIENTED PYTHON
+	
+	- module_4: github
+	
 		- How to setup python architecture on github (creating packages)
+			- os library
 		- How to setup continuous integration with python
 
-	- module_6: object-oriented programming
+	- module_5: object-oriented programming
+	
+	GENERATORS
+	if __name__ == '__main__':
+	
+	- module_X: Additional libraries (X > 5)
+	
+		- As I get better with python, document the libraries that I find useful and create tutorial modules for them
+		- Maybe even plug my own libraries lmao
 
 =======================================
