@@ -1,0 +1,8 @@
+===== python-tutorials brainstorm =====
+
+- Branch naming convetion
+	- master: clean version, no answers filled in, is duplicated when creating new branches for people to fill out
+	- "Vanier_2020_02_31": community version for a group, answers are filled in as they go, multiple of these branches can exist, keeps track of who has been taugh the tutorial
+	- answers: has answers for all of the exercises and projects
+
+- 
